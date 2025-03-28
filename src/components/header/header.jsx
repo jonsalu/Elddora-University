@@ -25,7 +25,7 @@ const Header = () => {
     return(
         <div className="header">
             <div className="logo">
-                <img src="/public/logo-sem-fundo.png" alt="" />
+                <img src="/logo-sem-fundo.png" alt="" />
                 
             </div>
             <button id="menu-header" onClick={handleModal}>Menu</button>

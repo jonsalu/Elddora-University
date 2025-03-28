@@ -10,7 +10,7 @@ const Home = () => {
     return(
         <div className="home">
             <div className="main-logo-home">
-                <img src="/public/logo-sem-fundo-branco.png" alt=""/>
+                <img src="/logo-sem-fundo-branco.png" alt=""/>
                 <h1>Elddora University</h1>
                 <p>THE CHARACTER OF SUCCESS</p>
             </div>

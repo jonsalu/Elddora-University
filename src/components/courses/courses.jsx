@@ -11,15 +11,15 @@ const Courses = () => {
             <div className="courses-cards">
                 <div className="card-course" id="card-course-1">
                     <h1>Business</h1>
-                    <img src="/public/adm-card.png" alt="" />
+                    <img src="/adm-card.png" alt="" />
                 </div>
                 <div className="card-course" id="card-course-2">
                     <h1>Acting and Drama</h1>
-                    <img src="/public/teatro-card.png" alt="" />
+                    <img src="/teatro-card.png" alt="" />
                 </div>
                 <div className="card-course" id="card-course-3">
                     <h1>Technology and programming</h1>
-                    <img src="/public/ti-card.png" alt="" />
+                    <img src="/ti-card.png" alt="" />
                 </div>
             </div>
         </div>

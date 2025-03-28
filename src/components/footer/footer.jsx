@@ -10,7 +10,7 @@ const Footer = () => {
     return(
         <div className="footer">
             <div className="footer-logo">
-                <img src="/public/logo-sem-fundo-branco.png" alt="" />
+                <img src="/logo-sem-fundo-branco.png" alt="" />
                 <div className="footer-icons">
                     <a href=""><FaPhoneAlt /></a>
                     <a href=""><FaGoogle /></a>

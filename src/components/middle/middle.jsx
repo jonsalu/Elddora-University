@@ -10,7 +10,7 @@ const Middle = () => {
                 </div>
 
                 <div className="middle-pic">
-                    <img src="/public/formatura.jpeg" alt="" />
+                    <img src="/formatura.jpeg" alt="" />
                 </div>
         </div>
     )
