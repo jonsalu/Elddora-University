@@ -1,0 +1,69 @@
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/duke-university-2.png');
+    background-repeat: no-repeat; /* Evita repetição */
+    background-size: cover; /* Faz a imagem ocupar toda a área do elemento */
+    background-position: center; /* Centraliza o foco da imagem */
+    width: 100%; /* Ocupa toda a largura */
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    color: white;
+}
+
+.courses-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-course{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-course h1{
+    font-size:larger;
+}
+
+.card-course img{
+    height: 35vh;
+    width: auto;
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 625px){
+    .courses-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-course{
+        padding: 0;
+        width: auto;
+        width: fit-content;
+        font-size: 8pt;
+        word-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-course img{
+        width: 40%;
+        height: auto;
+    }
+
+    .courses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+}

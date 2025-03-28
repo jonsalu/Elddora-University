@@ -1,0 +1,44 @@
+.footer{
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.footer-icons a{
+    color: white;
+    padding: 10px;
+}
+
+.footer-logo img{
+    height: auto;
+    width: 25%;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.collum-footer{
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -1,0 +1,40 @@
+.middle{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5%;
+}
+
+.middle-text{
+    margin-left: 20%;
+}
+
+.middle-text p{
+    font-size: 12px;
+    width: 50%;
+}
+
+.middle-pic{
+    height: 40vh;
+    width: auto;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-pic img{
+    height: 140%;
+    width: auto;
+
+}
+
+@media (max-width: 625px){
+    .middle-pic{
+        display: none;
+    }
+}
